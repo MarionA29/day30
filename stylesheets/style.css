@@ -52,6 +52,7 @@
 }
 
 html {
+
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -61,9 +62,12 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+avatar {
+position: relative}
 
 body {
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 0.8125rem;
   font-weight: 400;
@@ -4961,12 +4965,15 @@ input[type="button"].btn-block {
 }
 
 .card-img {
+
   width: 100%;
   border-radius: calc(0.25rem - 1px);
 }
 
 .card-img-top {
   width: 100%;
+  height: 30%;
+  object-fit: cover;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
