@@ -50,7 +50,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.background_color
+{
 
+background-color:#f2f2f3
+
+}
 html {
 
   font-family: sans-serif;
@@ -567,10 +572,12 @@ pre code {
 
 .container {
   width: 100%;
+  padding-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 @media (min-width: 576px) {
