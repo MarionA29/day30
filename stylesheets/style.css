@@ -77,6 +77,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.edit{
+     height: 30px;
+     width: 200px;
+     font-size: 19px;
+     border-radius: 0;
+     border: none;
+     border-bottom: 1px solid black;
+     margin-left: 20px;
+ }
 .avatar {
   width: 80px;
   height: 80px;
