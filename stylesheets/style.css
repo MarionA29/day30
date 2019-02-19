@@ -62,8 +62,12 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
-avatar {
-position: relative}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
 
 body {
   margin-top: auto;
@@ -4860,6 +4864,7 @@ input[type="button"].btn-block {
 }
 
 .card {
+  margin: 15px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
