@@ -43,7 +43,16 @@
   --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+/* Index.html */
+.index_button {
+  text-decoration:none;
+  padding-top: 10px;
+  display:inline;
 
+}
+
+
+/* Index.html */
 *,
 *::before,
 *::after {
@@ -72,6 +81,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+
+.profile-pic {
+
 }
 
 body {
